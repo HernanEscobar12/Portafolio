@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 40px;
+    background-color: #d3d3da;
+    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.cara{
+    border-radius: 500px;
+    height: 200px;
+}
+.uno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(110vh - 80px);
+    background-color: #080808;
+    color: rgb(255, 251, 251);
+    /* padding-top: 10%; */
+}
+.caja-central{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+.caja-cara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #424242;
+}
+.caja-presentacion{
+    font: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #F2F2F2;
+    color: #303030;
+    padding: 10px;
+}
+
+.dos{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #cac6c6;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.aptitudes{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.tech{
+    height: 90px;
+}
+
+
+.tres{
+    background-color: #444446;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+}
+.proyectos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    color:#000000;
+    text-align: center;
+    width: 500vh;
+    margin-right: 10px;
+    border-radius: 10%;
+    border-width: 10px;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.card img{
+    width: 80%;
+}
+.card a, footer a {
+    color: rgb(83, 81, 81);
+}
+
+
+
+.red-social{
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: #424040;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    color: #F2F2F2;
+    height: 100px;
+}
+.contacto{
+    display: flex;
+    width: 30%;
+    flex-direction:row;
+    justify-content:space-between;
+    align-self:center;
+}
+.cuatro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200vh;
+}
+
+@media (max-width: 1000px) {
+    .caja-central{
+        width: 90%;
+        height: 70%;
+        flex-direction: column;
+    }
+    .caja-cara{
+        width: 100%;
+        height: 50%;
+    }
+    .caja-presentacion{
+        width: 100%;
+        height: 50%;
+        align-items: flex-start;
+    }
+    .aptitudes{
+        width: auto;
+    }
+    .dos{
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
+
+
+        .card img {
+            width: 100%;
+        }
+    .red-social{
+        margin: 0 10px 0 10px;
+    }
+}
